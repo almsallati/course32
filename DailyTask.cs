@@ -9,6 +9,8 @@ public partial class DailyTask
 
     public string Name { get; set; } = null!;
 
+    public int Count { get; set; }
+
     public int EmployeeId { get; set; }
 
     public virtual Employee Employee { get; set; } = null!;
